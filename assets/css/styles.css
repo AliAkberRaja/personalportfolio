@@ -234,6 +234,24 @@ img {
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
 }
 
+.button2 {
+  margin-left: 5px;
+  display: inline-block;
+  background-color:  #fff;
+  color: var(--first-color);
+  padding: 0.75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  border: 1.5px solid var(--first-color);
+  
+  
+}
+
+.button2:hover {
+  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+}
+
 /* ===== ABOUT =====*/
 .about__container {
   row-gap: 2rem;
@@ -296,14 +314,27 @@ img {
 .skills__css {
   width: 85%;
 }
-.skills__js {
-  width: 65%;
+.skills__python {
+  width: 80%;
 }
-.skills__ux {
+.skills__database {
   width: 85%;
 }
 .skills__img {
   border-radius: 0.5rem;
+}
+.skills__flutter {
+  width: 85%;
+}
+.skills__firebase{
+  width: 90%;
+}
+.skills__android{
+  width: 70%;
+}
+
+.skills__ux{
+  width: 90%;
 }
 
 /* ===== WORK =====*/
